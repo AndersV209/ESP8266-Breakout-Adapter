@@ -1,5 +1,9 @@
 ###ESP-07 & ESP-12 Breakout Adapter
 
+####Version 1.0 - LM1117 - AndersV209 custom (untested)
+Used LDO: AMS1117
+Vin=4.8-15V, Dropout=1.2V, Iq=5mA(-10mA)
+
 ####Version 1.1 - LM1117 (tested, works great)
 Used LDO: LM1117
 Vin=4.8-15V, Dropout=1.2V, Iq=5mA(-10mA)

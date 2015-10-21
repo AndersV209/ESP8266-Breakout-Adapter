@@ -63,6 +63,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -12801,34 +12802,34 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <package name="ESP-12-E">
 <description>ESP8266 Module ESP-12-E</description>
 <wire x1="7.9" y1="-9.8" x2="-8.1" y2="-9.8" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="-9.8" x2="-8.1" y2="8.4" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="8.4" x2="7.9" y2="8.4" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="-9.8" x2="-8.1" y2="14.2" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="14.2" x2="7.9" y2="14.2" width="0.127" layer="21"/>
+<wire x1="7.9" y1="14.2" x2="7.9" y2="-9.8" width="0.127" layer="21"/>
+<pad name="ADC" x="-7.2" y="3.8" drill="0.7" shape="offset" rot="R180"/>
+<pad name="CH_PD" x="-7.2" y="1.8" drill="0.7" shape="offset" rot="R180"/>
+<pad name="CS0" x="-5.14" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
 <pad name="GND" x="7" y="-8.2" drill="0.7" shape="offset"/>
-<wire x1="7.9" y1="8.4" x2="7.9" y2="-9.8" width="0.127" layer="21"/>
-<pad name="GPIO15" x="7" y="-6.2" drill="0.7" shape="offset"/>
-<pad name="GPIO2" x="7" y="-4.2" drill="0.7" shape="offset"/>
 <pad name="GPIO0" x="7" y="-2.2" drill="0.7" shape="offset"/>
-<pad name="GPIO5" x="7" y="-0.2" drill="0.7" shape="offset"/>
+<pad name="GPIO2" x="7" y="-4.2" drill="0.7" shape="offset"/>
 <pad name="GPIO4" x="7" y="1.8" drill="0.7" shape="offset"/>
+<pad name="GPIO5" x="7" y="-0.2" drill="0.7" shape="offset"/>
+<pad name="GPIO9" x="-1.14" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
+<pad name="GPIO10" x="0.86" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
+<pad name="GPIO12" x="-7.2" y="-4.2" drill="0.7" shape="offset" rot="R180"/>
+<pad name="GPIO13" x="-7.2" y="-6.2" drill="0.7" shape="offset" rot="R180"/>
+<pad name="GPIO14" x="-7.2" y="-2.2" drill="0.7" shape="offset" rot="R180"/>
+<pad name="GPIO15" x="7" y="-6.2" drill="0.7" shape="offset"/>
+<pad name="GPIO16" x="-7.2" y="-0.2" drill="0.7" shape="offset" rot="R180"/>
+<pad name="MISO" x="-3.14" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
+<pad name="MOSI" x="2.86" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
+<pad name="RESET" x="-7.2" y="5.8" drill="0.7" shape="offset" rot="R180"/>
 <pad name="RX" x="7" y="3.8" drill="0.7" shape="offset"/>
+<pad name="SCLK" x="4.86" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
 <pad name="TX" x="7" y="5.8" drill="0.7" shape="offset"/>
 <pad name="VCC" x="-7.2" y="-8.2" drill="0.7" shape="offset" rot="R180"/>
-<pad name="GPIO13" x="-7.2" y="-6.2" drill="0.7" shape="offset" rot="R180"/>
-<pad name="GPIO12" x="-7.2" y="-4.2" drill="0.7" shape="offset" rot="R180"/>
-<pad name="GPIO14" x="-7.2" y="-2.2" drill="0.7" shape="offset" rot="R180"/>
-<pad name="GPIO16" x="-7.2" y="-0.2" drill="0.7" shape="offset" rot="R180"/>
-<pad name="CH_PD" x="-7.2" y="1.8" drill="0.7" shape="offset" rot="R180"/>
-<pad name="ADC" x="-7.2" y="3.8" drill="0.7" shape="offset" rot="R180"/>
-<pad name="RESET" x="-7.2" y="5.8" drill="0.7" shape="offset" rot="R180"/>
 <text x="-5.27" y="-3.75" size="1.4224" layer="21">ESP-12(E)</text>
 <text x="-5.34" y="-7.61" size="1.4224" layer="27">&gt;Value</text>
 <text x="-5.16" y="6.21" size="1.4224" layer="25">&gt;Name</text>
-<pad name="SCLK" x="4.86" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
-<pad name="MOSI" x="2.86" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
-<pad name="GPIO10" x="0.86" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
-<pad name="GPIO9" x="-1.14" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
-<pad name="MISO" x="-3.14" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
-<pad name="CS0" x="-5.14" y="-9.838" drill="0.7" shape="offset" rot="R270"/>
 <text x="-4" y="1.33" size="1.4224" layer="21">ESP-07</text>
 <text x="-0.19" y="-1.21" size="1.4224" layer="21">&amp;</text>
 </package>
@@ -12840,30 +12841,30 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-10.16" y1="-22.86" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-22.86" x2="12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<pin name="RESET" x="-15.24" y="-10.16" visible="pin" length="middle"/>
 <pin name="ADC" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="CH_PD" x="-15.24" y="-12.7" visible="pin" length="middle"/>
-<pin name="GPIO16" x="17.78" y="-20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO14" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="CS0" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle"/>
+<pin name="GPIO0" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO2" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO4" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO9" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO10" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="GPIO12" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="GPIO13" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="VCC" x="-15.24" y="-17.78" visible="pin" length="middle"/>
-<pin name="GND" x="-15.24" y="-20.32" visible="pin" length="middle"/>
+<pin name="GPIO14" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
 <pin name="GPIO15" x="17.78" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO2" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO0" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO5" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO4" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO16" x="17.78" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="MISO" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="MOSI" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="RESET" x="-15.24" y="-10.16" visible="pin" length="middle"/>
 <pin name="RX" x="-15.24" y="7.62" visible="pin" length="middle"/>
+<pin name="SCLK" x="-15.24" y="-5.08" visible="pin" length="middle"/>
 <pin name="TX" x="-15.24" y="10.16" visible="pin" length="middle"/>
+<pin name="VCC" x="-15.24" y="-17.78" visible="pin" length="middle"/>
 <text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
 <text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;Value</text>
-<pin name="GPIO10" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO9" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="SCLK" x="-15.24" y="-5.08" visible="pin" length="middle"/>
-<pin name="MOSI" x="-15.24" y="-2.54" visible="pin" length="middle"/>
-<pin name="MISO" x="-15.24" y="0" visible="pin" length="middle"/>
-<pin name="CS0" x="-15.24" y="2.54" visible="pin" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>

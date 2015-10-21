@@ -12949,9 +12949,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <frame x1="20.32" y1="-10.16" x2="226.06" y2="157.48" columns="8" rows="5" layer="91"/>
 <text x="40.64" y="132.08" size="1.778" layer="91">VIN</text>
 <text x="137.16" y="132.08" size="1.778" layer="91">VOUT</text>
-<text x="144.78" y="2.54" size="1.778" layer="91">ESP8266 Breakout Adapter - ESP-07/ESP-12(E) custom
+<text x="144.78" y="2.54" size="1.778" layer="91">ESP8266 Breakout Adapter - ESP-12E custom
 Date: 21. October 2015
-Version: 0.1
+Version: 1.0
 License: CC-BY
 
 https://creativecommons.org/licenses/by/4.0/</text>

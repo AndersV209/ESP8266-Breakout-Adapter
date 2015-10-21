@@ -1,7 +1,7 @@
 CUSTOM Version by AndersV209
 
 
-#ESP-07 &amp; ESP-12(E) Breakout Adapter
+#ESP-12E Breakout Adapter
 
 ###Features
 * 3V3 voltageregulator (LM1117/AMS1117/..)
@@ -11,7 +11,7 @@ CUSTOM Version by AndersV209
 
 ###Partlist:
 **ESP8266**
-* 1x - ESP-07 / ESP12(E)
+* 1x - ESP12E
 
 **Vreg**
 * 1x - x1117-3.3 - [SOT223]
@@ -21,15 +21,14 @@ CUSTOM Version by AndersV209
 * 2x - 10µF(>16V)
 
 **Switches**
-* 2x - Tactile Switch - [THT/SMD]
+* 1x - Tactile Switch - [THT/SMD]
 
 **Resistors**
-* 4x - 10K - [0805]
+* 1x - 10K - [0805]
+* 1x - 0R - [0805]
 
 **Pin Header**
-* 2x - 1x2 - [THT]
-* 1x - 1x6 - [THT]
-* 2x - 1x8 - [THT]
+* 2x - 1x13 - [THT]
 
 
 ###Changelog
@@ -38,6 +37,7 @@ Version 1.0 (21. Oct 2015)
 * Removed gpio15 pull low
 * Split the spi connector to each side
 * Reposition reset switch
+* Reposition ESP12E 
 
 
 

@@ -362,8 +362,8 @@ UsedLibrary="C:/Users/Ander_000/Documents/GitHub/ESP8266-Breakout-Adapter/Breako
 
 [Win_1]
 Type="Control Panel"
-Loc="1167 334 1766 733"
-State=2
+Loc="2070 94 2669 493"
+State=0
 Number=0
 
 [Desktop]
